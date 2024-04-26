@@ -71,7 +71,7 @@ module.exports = {
     buyTicketButton: {
         reply_markup: {
             inline_keyboard: [
-                [{ text: 'Купить лотерейный билет 🎟️', callback_data: 'buy_lottery_ticket' }],
+                [{ text: 'Купить лотерейный билет 100$ 🎟️', callback_data: 'buy_lottery_ticket' }],
                 [{text: 'Меню', callback_data: '/retu'}],
             ]
         }
